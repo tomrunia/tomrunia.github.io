@@ -209,7 +209,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #a8a8a8;
 }
 #about .profile-pic {
    position: relative;
@@ -1009,3 +1009,132 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+#news {
+  color: #a8a8a8;
+  border: 0px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 110%;
+}
+
+#news .date {
+  color: #FF5E35;
+  text-align: right;
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+#news .description a, #news .description a:visited  {
+  text-decoration: underline;
+  color: #a8a8a8;
+}
+
+#news .description a:hover, #news .description a:active  {
+  text-decoration: underline;
+  color: #FF5E35;
+}
+
+#news td {
+  padding: 5px;
+  text-align: left;
+}
+
+#publications {
+  color: #a8a8a8;
+  border: 0px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 110%;
+}
+
+#publications a, #publications a:active, #publications a:hover, #publications a:visited {
+  text-decoration: none;
+}
+
+#publications .paper-thumbnail {
+  min-height: 100px;
+  width: 220px;
+  padding: 0;
+  margin: 0;
+}
+
+#publications .paper-thumbnail img {
+  padding: 0;
+  margin: 0;
+  border: 6px #636363 solid;
+  background-color: #fff;
+  transition: all .3s ease-in-out;
+}
+
+#publications .paper-thumbnail img:hover {
+  transform: scale(1.25);
+}
+
+#publications .description {
+  padding-left: 20px;
+  padding-top: 0px;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+#publications .description p {
+  line-height: 23px;
+}
+
+#publications .description strong {
+  line-height: 23px;
+}
+
+
+#publications .description h4 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+#publications .description h4 a, #publications .description h4 a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#publications .description h4 a:active, #publications .description h4 a:hover {
+  color: #FF5E35;
+  text-decoration: underline;
+}
+
+#publications .description .venue {
+  font-size: 13px;
+}
+
+#publications .description .venue a, #publications .description .venue a:visited, #publications .description .venue a:active, #publications .description .venue a:hover {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+#publications .description .links {
+  font-size: 13px;
+  color: #727272;
+}
+
+#publications .description .links a, #publications .description .links a:visited {
+  color: #727272;
+  text-decoration: none;
+}
+
+#publications .description .links a:active, #publications .description .links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.paper-link {
+  font-size: 13px;
+  color: #FF5E35 !important;
+}
+
+.paper-link:hover {
+  font-size: 13px;
+  color: #fff !important;
+}
