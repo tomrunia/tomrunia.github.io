@@ -61,7 +61,7 @@ header .banner {
 }
 
 header .banner-text {
-  width: 100%;
+  width: 110%;
 }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -217,14 +217,14 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { width: 41.66667%; margin-top: 40px; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
-   margin-top: 6px;
+   margin-top: 40px;
    background: #444;
 }
 #about .download .button:hover {
